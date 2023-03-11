@@ -34,12 +34,12 @@ class about extends componenet {
                                     <span>{phone}</span><br />
                                     <span>{email}</span><br />
                                     <span>{city}</span><br />
-                                    <span>{willing-to-relocate}</span>
+                                    <span>{"willing to relocate"}</span>
                                 </p>
                             </div>
                             <div className="columns download">
                                 <p>
-                                    <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i> </a>
+                                    <a href={cvDownload} className="button" target="_blank"><i className="fa fa-download"></i> </a>
                                 </p>
                             </div>
                         </div>
